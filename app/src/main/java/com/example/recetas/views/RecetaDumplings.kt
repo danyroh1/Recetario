@@ -67,12 +67,20 @@ fun DumplingsView(navController: NavController) {
                     .background(Color.White)
             ) {
                 Text(
-                    text = "Receta:\n" +
-                            "Paso 1: Prepara la masa mezclando harina de trigo con agua y sal. Amasa hasta que obtengas una masa suave y elástica. Deja reposar durante 30 minutos.\n" +
-                            "Paso 2: Para el relleno, mezcla carne molida de cerdo o pollo con cebolla, jengibre, ajo, salsa de soja, aceite de sésamo y sal. Mezcla bien hasta que todos los ingredientes estén incorporados.\n" +
-                            "Paso 3: Forma pequeñas bolitas con la masa y rellénalas con una cucharadita del relleno. Cierra las bolitas de masa formando pequeños paquetitos.\n" +
-                            "Paso 4: Cocina los dumplings al vapor en una vaporera durante 15-20 minutos o hasta que la masa esté cocida y el relleno completamente caliente.\n" +
-                            "Paso 5: Sirve los dumplings con salsa de soja, vinagre de arroz o salsa de chile al gusto.",
+                    text = "Ingredientes:\n" +
+                            "   2 tazas de harina de trigo\n" +
+                            "   ¾ de taza de agua caliente\n" +
+                            "   200 g de carne de cerdo molida\n" +
+                            "   1 cucharadita de jengibre rallado\n" +
+                            "   2 cucharadas de cebollín picado\n" +
+                            "   1 cucharada de salsa de soya\n" +
+                            "   1 cucharada de aceite de sésamo\n"+
+                            "\n Receta:\n" +
+                            "   Paso 1: Prepara la masa mezclando harina de trigo con agua y sal. Amasa hasta que obtengas una masa suave y elástica. Deja reposar durante 30 minutos.\n" +
+                            "   Paso 2: Para el relleno, mezcla carne molida de cerdo o pollo con cebolla, jengibre, ajo, salsa de soja, aceite de sésamo y sal. Mezcla bien hasta que todos los ingredientes estén incorporados.\n" +
+                            "   Paso 3: Forma pequeñas bolitas con la masa y rellénalas con una cucharadita del relleno. Cierra las bolitas de masa formando pequeños paquetitos.\n" +
+                            "   Paso 4: Cocina los dumplings al vapor en una vaporera durante 15-20 minutos o hasta que la masa esté cocida y el relleno completamente caliente.\n" +
+                            "   Paso 5: Sirve los dumplings con salsa de soja, vinagre de arroz o salsa de chile al gusto.",
                     fontSize = 18.sp,
                     color = Color.Black
                 )

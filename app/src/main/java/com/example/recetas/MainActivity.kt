@@ -22,7 +22,7 @@ class MainActivity : ComponentActivity() {
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
-    //mainMenuView()
+    //MainMenuView()
     //CochinitaPibilView()
     //DumplingsView()
     //PizzaView()

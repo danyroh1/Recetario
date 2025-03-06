@@ -66,12 +66,22 @@ fun SushiView(navController: NavController) {
                     .background(Color.White)
             ) {
                 Text(
-                    text = "Receta:\n" +
-                            "Paso 1: Cocina el arroz para sushi según las instrucciones del paquete. Una vez cocido, mezcla el arroz con vinagre de arroz, azúcar y sal. Deja enfriar el arroz a temperatura ambiente.\n" +
-                            "Paso 2: Prepara las hojas de alga nori sobre una esterilla de bambú. Extiende una capa fina de arroz sobre el alga, dejando un borde de 1 cm sin arroz en la parte superior.\n" +
-                            "Paso 3: Coloca tiras de pescado crudo, pepino, aguacate o lo que prefieras en el centro del arroz.\n" +
-                            "Paso 4: Enrolla el sushi con la esterilla presionando ligeramente para que se mantenga firme. Humedece el borde sin arroz con agua para sellar el rollo.\n" +
-                            "Paso 5: Corta el rollo en piezas de 2-3 cm de grosor. Sirve con salsa de soja, wasabi y jengibre encurtido."
+                    text =  "Ingredientes:\n"+
+                            "   2 tazas de arroz para sushi\n" +
+                            "   2 ½ tazas de agua\n" +
+                            "   ¼ de taza de vinagre de arroz\n" +
+                            "   1 cucharada de azúcar\n" +
+                            "   1 cucharadita de sal\n" +
+                            "   Hojas de alga nori\n" +
+                            "   150 g de pescado crudo (salmón o atún)\n" +
+                            "   ½ aguacate en tiras\n" +
+                            "   ½ pepino en tiras\n" +
+                            "\n Receta:\n" +
+                            "   Paso 1: Cocina el arroz para sushi según las instrucciones del paquete. Una vez cocido, mezcla el arroz con vinagre de arroz, azúcar y sal. Deja enfriar el arroz a temperatura ambiente.\n" +
+                            "   Paso 2: Prepara las hojas de alga nori sobre una esterilla de bambú. Extiende una capa fina de arroz sobre el alga, dejando un borde de 1 cm sin arroz en la parte superior.\n" +
+                            "   Paso 3: Coloca tiras de pescado crudo, pepino, aguacate o lo que prefieras en el centro del arroz.\n" +
+                            "   Paso 4: Enrolla el sushi con la esterilla presionando ligeramente para que se mantenga firme. Humedece el borde sin arroz con agua para sellar el rollo.\n" +
+                            "   Paso 5: Corta el rollo en piezas de 2-3 cm de grosor. Sirve con salsa de soja, wasabi y jengibre encurtido."
                     ,
                     fontSize = 18.sp,
                     color = Color.Black

@@ -68,13 +68,21 @@ fun PizzaView(navController: NavController) {
                     .background(Color.White)
             ) {
                 Text(
-                    text = "Receta:\n" +
-                            "Paso 1: Prepara la masa de pizza mezclando harina, agua tibia, levadura y sal. Amasa hasta obtener una textura suave y elástica. Deja reposar la masa durante 1 hora en un lugar cálido.\n" +
-                            "Paso 2: Precalienta el horno a 220°C. Mientras tanto, extiende la masa en una superficie enharinada hasta que tenga el tamaño adecuado para tu bandeja de horno.\n" +
-                            "Paso 3: Esparce una capa de salsa de tomate sobre la base de la pizza, luego agrega una capa generosa de queso mozzarella rallado.\n" +
-                            "Paso 4: Añade tus ingredientes favoritos como jamón, pepperoni, champiñones, pimientos o aceitunas.\n" +
-                            "Paso 5: Hornea la pizza durante 12-15 minutos, o hasta que la masa esté dorada y crujiente y el queso esté bien derretido y burbujeante.\n" +
-                            "Paso 6: Retira del horno, corta en porciones y disfruta.",
+                    text =  "Ingredientes:\n"+
+                            "   2 tazas de harina de trigo\n" +
+                            "   1 cucharadita de levadura seca\n" +
+                            "   ½ taza de agua tibia\n" +
+                            "   1 cucharada de aceite de oliva\n" +
+                            "   ½ taza de salsa de tomate\n" +
+                            "   1 taza de queso mozzarella rallado\n" +
+                            "   Hojas de albahaca (opcional)\n" +
+                            "\n Receta:\n" +
+                            "   Paso 1: Prepara la masa de pizza mezclando harina, agua tibia, levadura y sal. Amasa hasta obtener una textura suave y elástica. Deja reposar la masa durante 1 hora en un lugar cálido.\n" +
+                            "   Paso 2: Precalienta el horno a 220°C. Mientras tanto, extiende la masa en una superficie enharinada hasta que tenga el tamaño adecuado para tu bandeja de horno.\n" +
+                            "   Paso 3: Esparce una capa de salsa de tomate sobre la base de la pizza, luego agrega una capa generosa de queso mozzarella rallado.\n" +
+                            "   Paso 4: Añade tus ingredientes favoritos como jamón, pepperoni, champiñones, pimientos o aceitunas.\n" +
+                            "   Paso 5: Hornea la pizza durante 12-15 minutos, o hasta que la masa esté dorada y crujiente y el queso esté bien derretido y burbujeante.\n" +
+                            "   Paso 6: Retira del horno, corta en porciones y disfruta.",
                     fontSize = 18.sp,
                     color = Color.Black
                 )

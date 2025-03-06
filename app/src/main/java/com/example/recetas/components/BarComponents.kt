@@ -61,7 +61,7 @@ fun UploadImage(
     )
 }
 @Composable
-fun RecipeItem(name: String, imageRes: Int, text : String, navController: NavController) {
+fun RecipeItem(name: String, imageRes: Int, text: String, description: String, navController: NavController) {
     Row(
         modifier = Modifier
             .fillMaxWidth()
@@ -76,6 +76,8 @@ fun RecipeItem(name: String, imageRes: Int, text : String, navController: NavCon
         Spacer(modifier = Modifier.width(16.dp))
         Column {
             Text(text = name, fontSize = 20.sp, color = Color.Black)
+            Spacer(modifier = Modifier.height(4.dp))
+            Text(text = description, fontSize = 14.sp, color = Color.Gray)
             Spacer(modifier = Modifier.height(8.dp))
             MainButton("Ir a Receta", Color.DarkGray, Color.White) {
                 navController.navigate(text)

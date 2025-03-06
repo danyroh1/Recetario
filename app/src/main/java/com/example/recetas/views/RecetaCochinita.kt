@@ -68,11 +68,19 @@ fun CochinitaPibilView(navController: NavController) {
                     .background(Color.White)
             ) {
                 Text(
-                    text = "Receta:\n" +
-                            "Paso 1: Marina la carne de cerdo con achiote, jugo de naranja agria, ajo, sal y pimienta. Deja reposar por al menos 4 horas o toda la noche en el refrigerador para que absorba bien los sabores.\n" +
-                            "Paso 2: Precalienta el horno a 180°C. Coloca la carne marinada en una olla de presión o en un recipiente con tapa y hornéala durante 3 horas o hasta que esté tierna.\n" +
-                            "Paso 3: Una vez cocida la carne, retírala del horno y desmenúzala con un tenedor.\n" +
-                            "Paso 4: Sirve la carne sobre tortillas de maíz calientes, acompáñala con cebolla morada encurtida, salsa de habanero y un poco de cilantro.",
+                    text = "Ingredientes:\n" +
+                            "   1 kg de carne de cerdo (pierna o lomo)\n" +
+                            "   100 g de pasta de achiote\n" +
+                            "   1 taza de jugo de naranja agria (o mezcla de naranja y limón)\n" +
+                            "   2 dientes de ajo picados\n" +
+                            "   1 cucharadita de comino\n" +
+                            "   Sal y pimienta al gusto\n" +
+                            "   Hojas de plátano (opcional)\n"+
+                            "\n Receta:\n" +
+                            "   Paso 1: Marina la carne de cerdo con achiote, jugo de naranja agria, ajo, sal y pimienta. Deja reposar por al menos 4 horas o toda la noche en el refrigerador para que absorba bien los sabores.\n" +
+                            "   Paso 2: Precalienta el horno a 180°C. Coloca la carne marinada en una olla de presión o en un recipiente con tapa y hornéala durante 3 horas o hasta que esté tierna.\n" +
+                            "   Paso 3: Una vez cocida la carne, retírala del horno y desmenúzala con un tenedor.\n" +
+                            "   Paso 4: Sirve la carne sobre tortillas de maíz calientes, acompáñala con cebolla morada encurtida, salsa de habanero y un poco de cilantro.",
                     fontSize = 17.sp,
                     color = Color.Black
                 )
