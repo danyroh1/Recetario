@@ -13,14 +13,14 @@
 
 ![Interfaz de la App](Recetario.png)
 
-## 🛠️ Tecnologías Utilizadas  
+## Tecnologías Utilizadas  
 
 - **Kotlin**  
 - **Jetpack Compose**  
 - **Material3 Components**  
 - **Android Navigation**  
 
-## 🚀 Instalación y Ejecución  
+## Instalación y Ejecución  
 
 1. **Clona el repositorio:**  
    ```sh
