@@ -1,24 +1,28 @@
-# Recetas
+# 🍽️ Recetarios 
 
-Esta es una aplicación de recetas desarrollada con Jetpack Compose para Android. Permite a los usuarios explorar y ver detalles de diferentes recetas.
+**Recetas** es una aplicación móvil desarrollada en **Android Studio** utilizando **Jetpack Compose**. Su objetivo es proporcionar recetas de cocina de manera sencilla e intuitiva, permitiendo a los usuarios visualizar ingredientes, procedimientos y detalles de distintos platillos.
 
-## Características
+## 📌 Características  
 
-- Navegación entre recetas (Cochinita Pibil, Dumplings, Pizza, Sushi).
-- Visualización de imágenes y descripciones de recetas.
-- Detalles completos de ingredientes y preparación para cada receta.
-- Interfaz de usuario moderna y responsiva con Jetpack Compose.
+- 📜 **Lista de Recetas**: Muestra una colección de recetas con imágenes y descripciones breves.  
+- 📸 **Interfaz con Jetpack Compose**: Diseño moderno y dinámico con disposición optimizada.  
+- 🧑‍🍳 **Detalles de Recetas**: Cada receta incluye ingredientes y pasos detallados para su preparación.  
+- 📱 **Navegación Intuitiva**: Implementación de `NavController` para moverse entre la lista y los detalles de cada receta.  
 
 ## Capturas de Pantalla
 
 ![Interfaz de la App](Recetario.png)
 
-## Tecnologías Utilizadas
+## 🛠️ Tecnologías Utilizadas  
 
-- **Kotlin**: Lenguaje de programación principal.
-- **Jetpack Compose**: Framework de UI declarativo para Android.
-- **Gradle Kotlin DSL**: Para la configuración del build.
-- **AndroidX**: Librerías de soporte para Android.
-- **Navigation Compose**: Para la navegación entre pantallas.
+- **Kotlin**  
+- **Jetpack Compose**  
+- **Material3 Components**  
+- **Android Navigation**  
 
-## Estructura del Proyecto
+## 🚀 Instalación y Ejecución  
+
+1. **Clona el repositorio:**  
+   ```sh
+   git clone https://github.com/danyroh1/Recetario.git
+
